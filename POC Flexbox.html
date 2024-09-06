@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.flex-container {
+  display: flex;
+  background-color: #000000;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
+
+
+
+
+.flex-container1 {
+  display: flex;
+  flex-direction: column;
+  background-color: #000000;
+}
+
+.flex-container1 > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+.flex-container2 {
+  display: flex;
+  flex-direction: column-reverse;
+  background-color: #000000;
+}
+
+.flex-container2 > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+.flex-container3 {
+  display: flex;
+  flex-direction: row;
+  background-color:#000000;
+}
+
+.flex-container3 > div {
+  background-color: #f1f1f1;
+  width: 100px
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+.flex-container4 {
+  display: flex;
+  flex-direction: row-reverse;
+  background-color: #000000;
+}
+
+.flex-container4 > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+.flex-container5 {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #000000;
+}
+
+.flex-container5 > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+.flex-container6 {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  background-color: #000000;
+}
+
+.flex-container6 > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+.flex-container7 {
+  display: flex;
+  justify-content: center;
+  background-color: #000000;
+}
+
+.flex-container7 > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+.flex-container71 {
+  display: flex;
+  justify-content: flex-start;
+  background-color: #000000;
+}
+
+.flex-container71 > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+.flex-container72 {
+  display: flex;
+  justify-content: flex-end;
+  background-color: #000000;
+}
+
+.flex-container72 > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+.flex-container73 {
+  display: flex;
+  justify-content: space-around;
+  background-color: #000000;
+}
+
+.flex-container73 > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+.flex-container74 {
+  display: flex;
+  justify-content: space-between;
+  background-color: #000000;
+}
+
+.flex-container74 > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+.flex-container8 {
+  display: flex;
+  height: 200px;
+  align-items: center;
+  background-color: #000000;
+}
+
+.flex-container8 > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+.flex-container81 {
+  display: flex;
+  height: 200px;
+  align-items: flex-end;
+  background-color: #000000;
+}
+
+.flex-container81 > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+.flex-container82 {
+  display: flex;
+  height: 200px;
+  align-items: flex-start;
+  background-color: #000000;
+}
+
+.flex-container82 > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+.flex-container83 {
+  display: flex;
+  height: 200px;
+  align-items: stretch;
+  background-color: #000000;
+}
+
+.flex-container83 > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+.flex-container84 {
+  display: flex;
+  height: 200px;
+  align-items: baseline;
+  background-color: #000000;
+}
+
+.flex-container84 > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+.flex-container9 {
+  display: flex;
+  height: 200px;
+  background-color: #f1f1f1;
+}
+
+.flex-container9 > div {
+  background-color: #000000;
+  color: white;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+</style>
+</head>
+<body>
+
+<h1>"Flex-container" - Utilizada para separar os itens da página.</h1>
+
+<div class="flex-container">
+  <div>1</div>
+  <div>2</div>
+  <div>3</div>  
+</div>
+
+<h1>Flex-direction </h1>
+
+<p>"Flex-diretcion: column" </p>
+
+<div class="flex-container1">
+  <div>1</div>
+  <div>2</div>
+  <div>3</div>  
+</div>
+
+<p>"Flex-diretcion: column-reverse" </p>
+
+<div class="flex-container2">
+  <div>1</div>
+  <div>2</div>
+  <div>3</div>  
+</div>
+
+<p>"Flex-diretcion: row" </p>
+
+<div class="flex-container3">
+  <div>1</div>
+  <div>2</div>
+  <div>3</div>  
+</div>
+
+<p>"Flex-diretcion: row-reverse" </p>
+
+<div class="flex-container4">
+  <div>1</div>
+  <div>2</div>
+  <div>3</div>  
+</div>
+
+<h1>Flex-wrap </h1>
+
+<div class="flex-container5">
+  <div>1</div>
+  <div>2</div>
+  <div>3</div>
+  <div>4</div>
+  <div>5</div>
+  <div>6</div>    
+</div>
+
+<h1>Wrap-reverse </h1>
+
+<div class="flex-container6">
+  <div>1</div>
+  <div>2</div>
+  <div>3</div>
+  <div>4</div>
+  <div>5</div>
+  <div>6</div>    
+</div>
+
+<h1>Justify-Content</h1>
+
+<p>Justify-Content: center </p>
+
+<div class="flex-container7">
+  <div>1</div>
+  <div>2</div>
+  <div>3</div>  
+</div>
+
+<p>Justify-Content: flex-start </p>
+
+<div class="flex-container71">
+  <div>1</div>
+  <div>2</div>
+  <div>3</div>  
+</div>
+
+<p>Justify-Content: flex-end </p>
+
+<div class="flex-container72">
+  <div>1</div>
+  <div>2</div>
+  <div>3</div>  
+</div>
+
+<p>Justify-Content: space-around </p>
+
+<div class="flex-container73">
+  <div>1</div>
+  <div>2</div>
+  <div>3</div>  
+</div>
+
+<p>Justify-Content: space-between </p>
+
+<div class="flex-container74">
+  <div>1</div>
+  <div>2</div>
+  <div>3</div>  
+</div>
+
+<h1>Align-items </h1>
+
+<p>Center </p>
+
+<div class="flex-container8">
+  <div>1</div>
+  <div>2</div>
+  <div>3</div>  
+</div>
+
+<p>Flex-end </p>
+
+<div class="flex-container81">
+  <div>1</div>
+  <div>2</div>
+  <div>3</div>  
+</div>
+
+<p>Flex-start </p>
+
+<div class="flex-container82">
+  <div>1</div>
+  <div>2</div>
+  <div>3</div>  
+</div>
+
+<p>Stretch </p>
+
+<div class="flex-container83">
+  <div>1</div>
+  <div>2</div>
+  <div>3</div>  
+</div>
+
+<p>Baseline </p>
+
+<div class="flex-container84">
+  <div>1</div>
+  <div>2</div>
+  <div>3</div>  
+</div>
+
+
+<h1>Propriedade "Order"</h1>
+
+<div class="flex-container83">
+  <div style="order: 3">1</div>
+  <div style="order: 2">2</div>
+  <div style="order: 4">3</div> 
+  <div style="order: 1">4</div>
+</div>
+
+<h1>Propriedade "Flex-grow</h1>
+
+<div class="flex-container83">
+  <div style="flex-grow: 1">1</div>
+  <div style="flex-grow: 10">2</div>
+  <div style="flex-grow: 1">3</div>
+</div>
+
+<h1>Propriedade "Flex-shrink"</h1>
+
+<div class="flex-container83">
+  <div>1</div>
+  <div>2</div>
+  <div>3</div>
+  <div>4</div>
+  <div>5</div>
+  <div>6</div>
+  <div style="flex-shrink: 0">7</div>
+  <div>8</div>
+  <div>9</div>
+  <div>10</div>
+  <div>11</div>
+  <div>12</div>
+</div>
+
+<h1>Propriedade "Flex-basis"</h1>
+
+<div class="flex-container83">
+  <div>1</div>
+  <div>2</div>
+  <div>3</div>
+  <div style="flex-basis:200px">4</div>
+  <div>5</div>
+</div>
+
+<h1>Propriedade "Align-self"</h1>
+
+<div class="flex-container9">
+  <div>1</div>
+  <div>2</div>
+  <div style="align-self: center">3</div>
+  <div>4</div>
+</div>
+
+
+
+
+
+
+
+</body>
+</html>
