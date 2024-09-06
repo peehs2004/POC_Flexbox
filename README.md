@@ -1,5 +1,5 @@
-# Webmobile_Proj
-Pojetos de web mobile
+# POC_Flexbox
+Prova de conceito sobre Flexbox
 # Prova de conceito Flexbox
 
 O projeto é uma prova de conceito que demonstra e especifíca cada uma das funcionalidades do Flexbox em CSS no HTML.
